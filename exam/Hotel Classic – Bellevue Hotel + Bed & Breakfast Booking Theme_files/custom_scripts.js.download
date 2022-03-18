@@ -1,0 +1,36 @@
+/*(function($) {
+    $(document).ready(function() {
+        $("#mphb_room_details-0-service-1293-adults").val('1');
+
+		var delay = 100; setTimeout(function() {
+			$('.elementor-tab-title').removeClass('elementor-active');
+ 			$('.elementor-tab-content').css('display', 'none'); }, delay); delay
+    })
+
+})(jQuery);
+
+
+gform.addFilter('gform_calculation_result', function( result, formulaField, formId, calcObj ) {
+    if ( formId == '1' && (formulaField.field_id == '39' || formulaField.field_id == '45')){
+        if(result < 149){
+            result = 149;
+        }
+        return result;
+    }
+    return result;
+} );*/
+
+
+(function($) {
+    $(document).ready(function(){
+
+        // full screen pop up
+        $('#floating-button, #fdm-toggle').click(function(){
+            $('#fdm-overlay').toggleClass('fdm-active');
+        });
+
+        $('#fdm-toggle-close').click(function(){
+            $('#fdm-overlay').toggleClass('fdm-active');
+        });
+    });
+})(jQuery);

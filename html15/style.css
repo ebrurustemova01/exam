@@ -1,0 +1,214 @@
+*{
+    padding:0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    left: 0px ;
+    top: 0px;
+    animation-name:yusif;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes yusif{
+    from {
+        left: 0;
+    }
+    to{
+        left: 500px;
+    }
+} */
+/* .hero-img{
+    width: 100%;
+    height: 1000px;
+    background-image:url(./cars\ 2014\ 4.jpg) ;
+    background-size: cover;
+    display: flex;
+    color: white;
+} */
+
+/* .hero-img:hover .left-side{
+    animation-name: left;
+}
+.hero-img:hover .left-side{
+    animation-name: right;
+} */
+
+/* .left-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -100%;
+    animation-name: left;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes left{
+    from{
+        left: -100%;
+    }
+    to{
+       left: 0; 
+    } 
+} */
+
+/* .right-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -100%;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes right{
+    from{
+        right: -100%;
+    }
+    to{
+       right:0; 
+    } 
+} */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bf942800-31c0-4568-befe-44af680e832f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.car1{
+    width: 120px;
+    height: 50px;
+    background-image: url(./WhatsApp\ Image\ 2022-03-07\ at\ 08.31.17.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    animation-name: bnm;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    left: 0px;
+    position: relative;
+
+}
+.car2{
+    width: 120px;
+    height: 50px;
+    background-image: url(./WhatsApp\ Image\ 2022-03-07\ at\ 08.31.17.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    animation-name: cv;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    left: 0px;
+    position: relative;
+
+}
+.car3{
+    width: 120px;
+    height: 50px;
+    background-image: url(./WhatsApp\ Image\ 2022-03-07\ at\ 08.31.17.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    animation-name: cvb;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    left: 0px;
+    position: relative;
+
+}
+
+
+@keyframes bnm{
+    from{
+      left: 0;
+    }
+    to{
+      left: 100%;
+    }
+}
+@keyframes cv{
+    from{
+      left: 0;
+    }
+    to{
+      left: 100%;
+    }
+}
+@keyframes cvb{
+    from{
+      left: 0;
+    }
+    to{
+      left: 100%;
+    }
+}
+
+
+.header{
+    width: 100%;
+    height: 300px;
+    background-color: bisque;
+    position: relative;
+}
+
+.header .button{
+  position: absolute;
+    left: 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    animation-name: button;
+    animation-duration: 0.5s;
+    animation-fill-mode: 1;
+    animation-delay: 1s;
+    box-shadow: 0px 0px 14px 14px red;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button{
+   from{
+     box-shadow: 0 0 0 0;
+     background-color: blue;
+   }
+   to{
+      box-shadow:  0px 0px 43px 12px;
+       background-color: red;
+   }
+}
+
+

@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    border: 1px solid  gray;
+    position: absolute;
+    position: fixed;
+     top: 0px;
+     background-color: aquamarine;
+    
+
+}
+.ul{
+    display: flex;
+
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    /* position: sticky;
+    top: 0px;
+    bottom: 0px; */
+}
+
+.main{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    position: fixed;
+    right: 30px;
+    
+    bottom: 30px;
+
+}
+
+.m{
+    width: 200px;
+    height: 200px;
+    background-image: url(./Wallpapers.jpg);
+    opacity: 0;
+    transition: 2s;
+}
+
+.m:hover{
+    opacity: 1;
+}

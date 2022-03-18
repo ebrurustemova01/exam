@@ -1,0 +1,89 @@
+/* .bg{
+    background-color: saddlebrown;
+    border: 1px solid grey;
+} */
+
+/* *body{
+    background-color: antiquewhite;
+} */
+
+.mein{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(186, 187, 187);
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.container .bg{
+    width: 30%;
+    height: 200px;
+    background-image: url(./Earth\ from\ Space\ [1242x2688].jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .bg .s1{
+    width: 35%;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    color: wheat;
+    padding-top: 7px;
+    transition: 2s;
+}
+.container .bg .s1:hover{
+    cursor: pointer;
+    background-color: brown;
+    }
+.container .bg .s2{
+    width: 35%;
+    height: 50px;
+    background-color: rgb(112, 112, 112);
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    transition: 2s;
+}
+.container .bg .s2:hover{
+    cursor: pointer;
+    background-color: rgb(42, 81, 165);
+    }
+
+
+
+
+
+    @media screen and (max-width: 992px) {
+        
+      }
+      
+      @media screen and (max-width: 600px) {
+        .mein{
+            height: 400px;
+        }
+
+        .container .bg{
+            height: 100px;
+            width: 100%;
+        }
+
+        .container .bg .s1{
+            height: 30%;
+            font-size: 10px;
+        }
+        .container .bg .s2{
+            height: 30%;
+            font-size: 10px;
+        }
+      }

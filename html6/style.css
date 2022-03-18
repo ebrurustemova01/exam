@@ -1,0 +1,65 @@
+.paraqraf{
+    color: green;
+}
+.yazi{
+    background-color: black;
+}
+#txt{
+    color: green;
+}
+.text{
+    color: crimson;
+}
+p,span{
+    color: green;
+}
+
+body{
+    font-size: 40px;
+}
+@font-face {
+    font-family: yr ;
+    src: url(./font/Shizuru-Regular.ttf);
+}
+.text{
+    color: purple;
+    background-color: black;
+    font-size: 40px;
+    font-size: 2 em;
+    text-align: center;
+    font-family: yr;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 60px;
+
+}
+.box{
+    width: 50%;
+    height: 400px;
+    background-color: plum;
+}
+
+.mini-box{
+    width: 50%;
+    height: 50%;
+    background-color: peru;
+}
+
+.link{
+    text-decoration: none;
+    color: greenyellow;
+}
+.text-box{
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.paraq{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through red;
+}
+
+
+     
+   

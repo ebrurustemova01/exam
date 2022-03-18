@@ -1,0 +1,89 @@
+.main{
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+}
+
+
+/* .main h1{
+    font-size: 20px;
+    /* transition: 0.5s; */
+    /* animation-name: ps;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+} */ */
+
+.main .W{
+    padding-bottom: 30px;
+   width: 20px;
+height: 60px;
+}
+.main .A{
+    width: 10px;
+ height: 1px;}
+ .main .V{
+    width: 10px;
+ height: 10px;}
+ .main .E{
+    width: 10px;
+ height: 10px;}
+
+/* .mini{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute;
+    border: 45%;
+    left: 0px;
+    top: 0px;
+} */
+
+
+/* @keyframes heart{
+    0%{
+        transform: scale(0.3);
+    }
+
+    50%{
+        transform: scale(0.6);
+    }
+
+    100%{
+        transform: scale(0.3);
+    }
+} */
+
+
+@keyframes ps{
+
+}
+
+
+.W::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 10px;
+    transition: 0.2s;
+    left: 0px;
+    background-color: aquamarine;
+    animation-duration: 1S;
+    animation-name: PS;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes PS{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 40px;
+    }
+    100%{
+        left: 100%;
+    }
+
+}

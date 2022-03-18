@@ -1,0 +1,752 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* .sc{
+    position: relative;
+    display: flex;
+} */
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    /* border: 1px solid grey; */
+}
+
+/* ul li{
+   
+    padding: 0px 30px;
+} */
+
+/* .open{
+    position: absolute;
+   cursor: pointer;
+   opacity:0;
+    left: 0px;
+    top: 18px;
+} */
+
+/* .drop{
+    position: relative;
+    color: black;
+    background-color: aquamarine;
+    transition: 0.3s;
+    transition-timing-function:linear;
+}
+
+.drop:hover .open{
+  opacity: 1;
+  transition: 0.3s;
+  transition-timing-function:linear;
+}
+
+.open li{
+    background-color: aquamarine;
+}
+
+.open li:hover{
+    color: black;
+    background-color: rgb(114, 114, 35);
+} */
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./hotel_demo_77.jpg);
+}
+
+.header .hv{
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.048);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .hv .hv1{
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .hv .hv2{
+    width: 500px;
+    color: white;
+}
+
+.header .hv .hv2 ul{
+    display: flex;
+  
+
+}
+
+.header .hv .hv2 ul li{
+    padding-left: 20px;
+    padding-right: 10px
+}
+
+
+.header .head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+}
+
+
+.head1 {
+    margin-left: 30px;
+    width: 200px;
+    height: 500px;
+    background-image: url(./logo_white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: red; */
+
+}
+.header .head .head2 {
+   
+    width: 600px;
+}
+
+.header .head .head2 ul{
+    padding-left: 40px;
+    display: flex;
+    /* color: white; */
+ 
+}
+
+.header .head .head2 ul li{
+    padding-left: 20px;
+    padding-right: 10px;
+    color:white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.65;
+
+}
+
+.header .head .head2 ul li #buy{
+    border: 1px solid #5c5c5c;
+    width: 80px;
+    height:50px;
+    border-radius: 40px;
+}
+.header .m {
+    height: 300px;
+}
+
+.header .m h1{
+    text-align: center;
+    font-family: Spinnaker;
+    font-weight: 400;
+    font-size: 56px;
+    color: white;
+}
+
+.header .m  p{
+    font-family: Open Sans;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+
+.header .fot{
+    height: 150px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    /* border: 1px solid gray; */
+    /* align-items: center; */
+}
+
+.header .fot .m1{
+    color: white;
+    width: 220px;
+    height: 100px;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+   
+
+/* 
+    width: 200px;
+    color: white;
+     background-color: #f25f5c;
+     border-radius: 30px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px; */
+}
+
+.header .fot .m1 .m2-3{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    color: #5c5c5c;
+  padding-left: 40px;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+.header .fot .m2{
+    color: white;
+    width: 220px;
+    height: 100px;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+}
+.header .fot .m2 .m2-2{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    color: #5c5c5c;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.head2 ul{
+    align-items: center !important;
+}
+.head2 ul .bg {
+/* background-color: #f25f5c; */
+padding: 5px;
+border-radius: 15px;
+background-color: rgba(255, 255, 255, 0);
+border: 1px solid rgba(0, 0, 0, 0.267);
+}
+.head2 .bg:hover{
+    background-color: rgba(255, 255, 255, 0.321);
+}
+.header .fot .m3{
+    width: 60px;
+    color: white;
+    height: 70px;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+}
+.header .fot .m3 .m3-1{
+    width: 100%;
+    height: 80px;
+    color: #5c5c5c;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.header .fot .m4{
+    width: 60px;
+    color: white;
+    height: 70px;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+}
+.header .fot .m4 .m4-1{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: #5c5c5c;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.header .fot .m5{
+    width: 200px;
+    color: white;
+     background-color: #f25f5c;
+     border-radius: 30px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    /* margin-bottom: 20px; */   
+    margin-top: 10px; 
+}
+
+.section{
+    padding-top: 20px;
+    height: 80vh;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.section .sec1{
+    width: 100%;
+    color: #f25f5c;
+    height: 150px;
+    font-family: Spinnaker;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section .sec1 .mini{
+  width: 100px;
+  height: 3px;
+  border: 1px solid  #f25f5c;
+}
+
+.section .sec2{
+    margin: 0px auto;
+    width: 700px;
+    height: 100px;
+}
+
+.section .sec2 p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #5c5c5c;
+}
+
+.section .sec3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.section .sec3 .s1{
+ width: 25%;
+ background-image: url(./hotel_demo_21-605x465.jpg);
+ height: 100%;
+}
+.section .sec3 .s2{
+    width: 25%;
+    background-image: url(./hotel_demo_1-605x465.jpg);
+    height: 100%;
+   }
+   .section .sec3 .s3{
+    width: 25%;
+    background-image: url(./hotel_demo_21-605x465.jpg);
+    height: 100%;
+   }
+      
+   .section .sec3 .s4{
+    width: 25%;
+    background-image: url(./hotel_demo_1-605x465.jpg);
+    height: 100%;
+   }
+
+   .snb{
+       padding-top: 50px;
+       background-color:  #f7f5f5;}
+   .section2{
+       margin: 0px auto;
+       width: 80%;
+       height: 70vh;
+       /* border: 1px solid grey; */
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .section2 .sec2-2{
+       width: 50%;
+       height: auto;
+
+   }
+   .section2 .sec2-2{
+    width: 50%;
+   height: auto;
+}
+
+.section2 .sec2-1 h1{
+    font-size: 30px;
+    font-family: Spinnaker;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.section2 .sec2-1 p{
+    width: 500px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: pre-line;
+    line-height: 1.65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section4{
+    padding-top: 20px;
+    /* height: auto; */
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.section4 .sec1{
+    width: 100%;
+    color: #f25f5c;
+    height: 60px;
+    font-family: Spinnaker;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .sec1 .mini{
+  width: 100px;
+  height: 1px;
+  border: 1px solid  #f25f5c;
+}
+
+.section4 .sec2{
+    text-align: center;
+    margin: 0px auto;
+    width: 700px;
+    height: 60px;
+}
+
+.section4 .sec2 p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #5c5c5c;
+}
+
+.section4 .sec3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    align-content: space-between; */
+
+}
+
+.section4 .sec3 .s1{
+ width: 31%;
+ background-image: url(./hotel_demo_21-605x465.jpg);
+ height: 300px;
+ /* padding-bottom: 20px; */
+}
+.section4 .sec3 .s2{
+    width: 31%;
+    background-image: url(./hotel_demo_1-605x465.jpg);
+    height: 300px;
+    /* margin-top: 40px; */
+   }
+   .section4 .sec3 .s3{
+    width: 31%;
+    background-image: url(./hotel_demo_21-605x465.jpg);
+    height:300px;
+   }
+      
+   .section4 .sec3 .s4{
+    width: 31%;
+    background-image: url(./hotel_demo_1-605x465.jpg);
+    height:300px;
+   }
+
+   .section4 .sec2 ul {
+       padding-left: 100px;
+       padding-bottom: 40px;
+       display: flex;
+       /* padding-top: 40px; */
+   }
+   .section4 .sec2 ul li{
+    display: flex;
+    /* color: #b4b3b3; */
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #5c5c5c;
+    padding-left: 40px;
+    /* padding-bottom: 50px; */
+}
+
+
+
+.snb2{
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    background-color:  #f7f5f5;
+/* border: 2px solid red; */
+margin-top: 400px;}
+
+
+    .snb2 .section5{
+    margin: 0px auto;
+    width: 80%;
+    /* height: 70vh; */
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snb2 .section5 .sec2-2{
+    width: 50%;
+    height: auto;
+
+}
+.snb2 .section5 .sec2-2{
+ width: 50%;
+height: 400px;
+background-image: url(./hotel_demo_21-605x465.jpg);
+}
+
+.snb2 .section5 .sec2-1 h1{
+ font-size: 30px;
+ font-family: Spinnaker;
+ font-weight: 400;
+ padding-bottom: 40px;
+}
+.snb2 .section5 .sec2-1 p{
+ width: 500px;
+ font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 400;
+ white-space: pre-line;
+ line-height: 1.65;
+}
+
+.section5 .button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 14px;
+    margin-top: 20px;
+   
+}
+.snb3{
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    background-color:  #f7f5f5;
+/* border: 2px solid red; */
+/* margin-top: 100px; */
+}
+
+
+    .snb3 .section5{
+    margin: 0px auto;
+    width: 80%;
+    /* height: 70vh; */
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snb3 .section5 .sec2-2{
+    width: 50%;
+    height: auto;
+
+}
+.snb3 .section5 .sec2-2{
+ width: 50%;
+height: 400px;
+background-image: url(./hotel_demo_21-605x465.jpg);
+}
+
+.snb3 .section5 .sec2-1 h1{
+ font-size: 30px;
+ font-family: Spinnaker;
+ font-weight: 400;
+ padding-bottom: 40px;
+}
+.snb3 .section5 .sec2-1 p{
+ width: 500px;
+ font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 400;
+ white-space: pre-line;
+ line-height: 1.65;
+}
+
+.snb3 .section5 .button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 14px;
+    margin-top: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.snb4 .section5{
+    margin: 0px auto;
+    width: 80%;
+    /* height: 70vh; */
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snb4 .section5 .sec2-2{
+    width: 50%;
+    height: auto;
+
+}
+.snb4 .section5 .sec2-2{
+ width: 50%;
+height: 400px;
+background-image: url(./hotel_demo_21-605x465.jpg);
+}
+
+.snb4 .section5 .sec2-1 h1{
+ font-size: 30px;
+ font-family: Spinnaker;
+ font-weight: 400;
+ padding-bottom: 40px;
+}
+.snb4 .section5 .sec2-1 p{
+ width: 500px;
+ font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 400;
+ white-space: pre-line;
+ line-height: 1.65;
+}
+
+.snb4  .section5 .button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 14px;
+    margin-top: 20px;
+   
+}
+
+
+.fotter{
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #f96d64 0%, #F25F5C 100%);
+}
+
+.fotter h1{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fotter ul{
+    display: flex;
+    padding-left: 700px;
+    color: white;
+    padding-top: 30px;
+    /* background-color: white; */
+}
+
+.fotter .img{
+    position: relative;
+    display: flex;
+   margin: 0px auto;
+    width: 300px;
+    height: 50px;
+}
+
+.fotter .img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.fotter .img h5{
+    position: absolute;
+    left: 90px ;
+    top: 20px;
+    color: white;
+}
+
+.fotter .img h6{
+    position: absolute;
+    left: 90px ;
+    top: 40px;
+    color: white;
+}
